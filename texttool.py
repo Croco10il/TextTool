@@ -3,6 +3,10 @@
 
 
 def process_line(line):
+    """
+    Analyse une ligne de commande et exécute l'opération demandée.
+    L'utilisateur B a écrit cette docstring.
+    """
     if " " not in line:
         return "No command or no argument given"
 
